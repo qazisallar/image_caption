@@ -10,15 +10,6 @@ Inference with beam search or greedy decoding
 Logging and experiment tracking using Weights & Biases (wandb)
 Modular codebase for easy extension
 
-# Repository Structure
-.
-├── dataset.py                # Dataset loader for Flickr30k
-├── image_captioning_model.py # ImageCaptioningModel class combining encoder and decoder
-├── predict.py                # Script for generating captions from images
-├── train.py                  # Training script
-├── utils.py                  # Utility functions (tokenizer setup, evaluation)
-├── requirements.txt          # Required Python packages
-
 # Installation
 1. Clone the repository
 ```bash
